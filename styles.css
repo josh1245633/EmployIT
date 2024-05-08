@@ -1,0 +1,109 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif; /* Choose a clean, professional font */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background */
+    color: #333; /* Dark gray text */
+  }
+  
+  h1, h2, h3 {
+    margin: 1em 0; /* Add some space above and below headings */
+    font-weight: bold; /* Make headings stand out */
+  }
+  
+  p {
+    line-height: 1.5; /* Improve readability with some line spacing */
+    font-size: 16px; /* Set a comfortable font size */
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #343a40; /* Dark blue header */
+    color: #fff; /* White text */
+    padding: 1.5em;
+    display: flex; /* Use flexbox for positioning */
+    justify-content: space-between; /* Distribute elements horizontally */
+  }
+  
+  h1 {
+    font-size: 2em; /* Increase heading size */
+    font-family: 'Ubuntu', sans-serif; /* Consider a bolder font for the title */
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #42494f; /* Slightly darker shade for navigation */
+    padding: 1em;
+  }
+  
+  nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block; /* Display navigation items horizontally */
+    margin: 0 1.5em; /* Increase space between navigation items */
+  }
+  
+  nav a {
+    color: #fff; /* White text for navigation links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 0.7em 1em; /* Adjust padding for a cleaner look */
+    font-weight: bold; /* Make navigation links stand out */
+  }
+  
+  nav a:hover {
+    background-color: #2e343b; /* Darker shade on hover */
+    color: #ddd; /* Light gray text on hover */
+  }
+  
+  /* Content section styles */
+  #aboutContent {
+    padding: 2em;
+    margin: 0 auto; /* Center content horizontally */
+    max-width: 800px; /* Limit content width */
+    background-color: #fff; /* White background for content area */
+    border: 1px solid #ddd; /* Subtle border around content */
+    border-radius: 5px; /* Add a slight rounded corner for a softer look */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  }
+  
+  h2 {
+    border-bottom: 1px solid #ddd; /* Add a subtle border to sections */
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1.2em; /* Slightly larger font size for subheadings */
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin-bottom: 0.5em;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #343a40; /* Dark blue footer */
+    color: #fff; /* White text */
+    padding: 1em;
+    text-align: center;
+  }
+  
+  /* IT theme accents (optional) */
+  .highlight {
+    color: #007bff; /* Blue for accents */
+  }
+  
+  h3:after {
+    content: " (IT)"; /* Add "(IT)" after career titles */
+    font-weight: normal;
+    font-size: 0.8em; /* Make "(IT)" smaller */
+    color: #007bff; /* Blue for "(IT)" text */
+  }
+  
