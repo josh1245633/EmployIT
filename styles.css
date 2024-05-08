@@ -1,81 +1,77 @@
-/* General styles */
-body {
-    font-family: Arial, sans-serif; /* Choose a clean, professional font */
+ body {
+    font-family: Arial, sans-serif; 
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5; /* Light gray background */
-    color: #333; /* Dark gray text */
+    background-color: #f5f5f5; 
+    color: #333; 
   }
   
   h1, h2, h3 {
-    margin: 1em 0; /* Add some space above and below headings */
-    font-weight: bold; /* Make headings stand out */
+    margin: 1em 0; 
+    font-weight: bold; 
   }
   
   p {
-    line-height: 1.5; /* Improve readability with some line spacing */
-    font-size: 16px; /* Set a comfortable font size */
+    line-height: 1.5; 
+    font-size: 16px; 
   }
   
-  /* Header styles */
   header {
-    background-color: #343a40; /* Dark blue header */
-    color: #fff; /* White text */
+    background-color: #343a40; 
+    color: #fff; 
     padding: 1.5em;
-    display: flex; /* Use flexbox for positioning */
-    justify-content: space-between; /* Distribute elements horizontally */
+    display: flex; 
+    justify-content: space-between; 
   }
   
   h1 {
-    font-size: 2em; /* Increase heading size */
-    font-family: 'Ubuntu', sans-serif; /* Consider a bolder font for the title */
+    font-size: 2em; 
+    font-family: 'Ubuntu', sans-serif; 
   }
   
-  /* Navigation styles */
   nav {
-    background-color: #42494f; /* Slightly darker shade for navigation */
+    background-color: #42494f; 
     padding: 1em;
   }
   
   nav ul {
-    list-style: none; /* Remove bullet points */
+    list-style: none; 
     padding: 0;
     margin: 0;
   }
   
   nav li {
-    display: inline-block; /* Display navigation items horizontally */
-    margin: 0 1.5em; /* Increase space between navigation items */
+    display: inline-block; 
+    margin: 0 1.5em; 
   }
   
   nav a {
-    color: #fff; /* White text for navigation links */
-    text-decoration: none; /* Remove underline from links */
-    padding: 0.7em 1em; /* Adjust padding for a cleaner look */
-    font-weight: bold; /* Make navigation links stand out */
+    color: #fff; 
+    text-decoration: none; 
+    padding: 0.7em 1em; 
+    font-weight: bold; 
   }
   
   nav a:hover {
-    background-color: #2e343b; /* Darker shade on hover */
-    color: #ddd; /* Light gray text on hover */
+    background-color: #2e343b; 
+    color: #ddd; 
   }
   
-  /* Content section styles */
   #aboutContent {
     padding: 2em;
-    margin: 0 auto; /* Center content horizontally */
-    max-width: 800px; /* Limit content width */
-    background-color: #fff; /* White background for content area */
-    border: 1px solid #ddd; /* Subtle border around content */
-    border-radius: 5px; /* Add a slight rounded corner for a softer look */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    margin: 0 auto; 
+    max-width: 800px; 
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
   }
   
   h2 {
-    border-bottom: 1px solid #ddd; /* Add a subtle border to sections */
+    border-bottom: 1px solid #ddd; 
     padding-bottom: 0.5em;
     margin-bottom: 1em;
-    font-size: 1.2em; /* Slightly larger font size for subheadings */
+    font-size: 1.2em; 
   }
   
   ul {
@@ -87,23 +83,21 @@ body {
     margin-bottom: 0.5em;
   }
   
-  /* Footer styles */
   footer {
-    background-color: #343a40; /* Dark blue footer */
-    color: #fff; /* White text */
+    background-color: #343a40; 
+    color: #fff;
     padding: 1em;
     text-align: center;
   }
   
-  /* IT theme accents (optional) */
   .highlight {
-    color: #007bff; /* Blue for accents */
+    color: #007bff; 
   }
   
   h3:after {
-    content: " (IT)"; /* Add "(IT)" after career titles */
+    content: " (IT)"; 
     font-weight: normal;
-    font-size: 0.8em; /* Make "(IT)" smaller */
-    color: #007bff; /* Blue for "(IT)" text */
+    font-size: 0.8em; 
+    color: #007bff; 
   }
   
